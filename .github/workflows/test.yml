@@ -1,12 +1,12 @@
 name: Run the unit tests
 
 on:
-	pull_request:
-		branches:
-			- main
-	push:
-		branches:
-			- main
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - main
 
 jobs:
   test:
