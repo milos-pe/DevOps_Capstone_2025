@@ -24,7 +24,7 @@ class BooksView(APIView):
         serializer = BookSerializer(data=request.data)
         serializer.is_valid(raise_exception=True)
         serializer.save()
-        return Response(serializer.data)
+        return Response(serializer.data, status=status.HTTP_201_CREATED)
         
 books_view = BooksView.as_view()
 
