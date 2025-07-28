@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ include "bookcatalog-chart.fullname" . }}-envs
+  labels:
+    {{- include "bookcatalog-chart.labels" . | nindent 4 }}
+data:
+  {{- range .Values.environmentVariables }}
+  {{ .name }}: "{{ .value }}"
+  {{- end }}
