@@ -4,6 +4,9 @@ metadata:
   name: {{ include "bookcatalog-chart.fullname" . }}-envs
   labels:
     {{- include "bookcatalog-chart.labels" . | nindent 4 }}
+  annotations:
+    helm.sh/hook: pre-install,pre-upgrade
+    helm.sh/hook-weight: "0"
 data:
   {{- range .Values.environmentVariables }}
   {{ .name }}: "{{ .value }}"
