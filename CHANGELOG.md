@@ -1,3 +1,9 @@
+## [1.1.0](https://github.com/milos-pe/DevOps_Capstone_2025/compare/v1.0.0...v1.1.0) (2025-07-30)
+
+### Features
+
+* add ArgoCD chart and production override values ([8001964](https://github.com/milos-pe/DevOps_Capstone_2025/commit/800196488ec5b2b84883d23dd3b53139eef994cd))
+
 ## 1.0.0 (2025-07-29)
 
 ### Features
