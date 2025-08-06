@@ -1,3 +1,13 @@
+## [1.2.0](https://github.com/milos-pe/DevOps_Capstone_2025/compare/v1.1.0...v1.2.0) (2025-08-06)
+
+### Features
+
+* add deploy-application job to GitHub Actions workflow ([adfd828](https://github.com/milos-pe/DevOps_Capstone_2025/commit/adfd82875263cc38694a3c7c3ce9844949b18860))
+
+### Bug Fixes
+
+* update hook weight and cleanup deployment template [skip ci] ([0ac63f8](https://github.com/milos-pe/DevOps_Capstone_2025/commit/0ac63f88cac0f403446a77bba0198d35bd8f3b10))
+
 ## [1.1.0](https://github.com/milos-pe/DevOps_Capstone_2025/compare/v1.0.0...v1.1.0) (2025-07-30)
 
 ### Features
